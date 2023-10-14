@@ -1,5 +1,7 @@
+import { Notif } from "./Notification.styled";
+
 export const Notification = () => {
     return (
-        <p>There is no feedback</p>
+        <Notif>There is no feedback</Notif>
     )
 }
